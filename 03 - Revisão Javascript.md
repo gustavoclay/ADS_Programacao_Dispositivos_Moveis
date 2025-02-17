@@ -6,7 +6,7 @@ author: Gustavo Clay
 title: 'Aula 3: Revisão de JavaScript'
 header: 'Aula 3: Revisão de JavaScript'
 footer: 'Programação para Dispositivos Móveis'
-transition: 
+transition: fade-out
 size: 4:3
 ---
 

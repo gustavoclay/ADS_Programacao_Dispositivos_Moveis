@@ -6,7 +6,7 @@ author: Gustavo Clay
 title: 'Aula 2: Git e GitHub'
 header: 'Programação para Dispositivos Móveis - Aula 2: Git e GitHub'
 footer: '![height:120px](./images/iesb-1.png) '
-transition: 
+transition: fade-out
 size: 4:3
 ---
 

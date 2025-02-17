@@ -6,7 +6,7 @@ author: Gustavo Clay
 title: 'Aula 1: IDE e Terminal'
 header: 'Programação para Dispositivos Móveis - Aula 1: IDE e Terminal'
 footer: '![height:120px](./images/iesb-1.png) '
-transition: 
+transition: fade-out
 size: 4:3
 ---
 
