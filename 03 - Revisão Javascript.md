@@ -78,7 +78,7 @@ size: 4:3
 
 - Declarar variáveis com `var`, `let` e `const`.
   ```javascript
-  var nome = "João José";
+  var nome = "Gustavo Clay";
   let idade = 25;
   const cidade = "Brasília";
   ```
@@ -100,7 +100,7 @@ var _condicao = false; // Boolean
 var x = 2019; // Número sem decimal
 var juros = 2.56; // Número com decimal
 let $mensagem = 'Olá Mundo!'; // String
-let pessoa = { nome: "José", idade: 30 }; // Objeto
+let pessoa = { nome: "Gustavo", idade: 30 }; // Objeto
 let carros = ["Audi", "Volvo", "BMW"]; // Array
 const soma = (a, b) => a + b; // Função
 const PI = 3.141592653589793; // Variável imutável

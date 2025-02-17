@@ -4,8 +4,8 @@ theme: default
 paginate: true
 author: Gustavo Clay
 title: 'Aula 2: Git e GitHub'
-header: 'Aula 2: Git e GitHub'
-footer: 'Programação para Dispositivos Móveis'
+header: 'Programação para Dispositivos Móveis - Aula 2: Git e GitHub'
+footer: '![height:120px](./images/iesb-1.png) '
 transition: 
 size: 4:3
 ---
@@ -38,6 +38,11 @@ Prof. Gustavo Clay
 2. **Commit**: Registro de uma alteração no repositório.
 3. **Branch**: Ramificação do projeto para desenvolvimento paralelo.
 4. **Merge**: Combinação de diferentes branches.
+
+---
+
+### Conceitos Básicos do Git
+
 5. **Clone**: Cópia de um repositório remoto para local.
 6. **Pull**: Atualização do repositório local com mudanças do repositório remoto.
 7. **Push**: Envio de mudanças do repositório local para o repositório remoto.

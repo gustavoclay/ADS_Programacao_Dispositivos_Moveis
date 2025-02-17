@@ -4,8 +4,8 @@ theme: default
 paginate: true
 author: Gustavo Clay
 title: 'Aula 1: IDE e Terminal'
-header: 'Aula 1: IDE e Terminal'
-footer: 'Programação para Dispositivos Móveis'
+header: 'Programação para Dispositivos Móveis - Aula 1: IDE e Terminal'
+footer: '![height:120px](./images/iesb-1.png) '
 transition: 
 size: 4:3
 ---
@@ -40,7 +40,7 @@ Prof. Gustavo Clay
 
 ---
 
-![Visual Studio Code](./images/vscode.png)
+![](./images/vscode.png)
 
 ---
 
@@ -68,7 +68,7 @@ Prof. Gustavo Clay
 
 ---
 
-![alt text](./images/gitbash.png)
+![height:500px](./images/gitbash.png)
 
 ---
 
