@@ -8,6 +8,10 @@ header: 'Programação para Dispositivos Móveis - Aula 1: IDE e Terminal'
 footer: '![height:120px](./images/iesb-1.png)'
 transition: fade-out
 size: 4:3
+style: |
+  section {
+    font-size: 2.0em;
+  }
 ---
 
 # Aula 1: IDE e Terminal

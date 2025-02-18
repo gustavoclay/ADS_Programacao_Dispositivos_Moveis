@@ -8,6 +8,10 @@ header: 'Programação para Dispositivos Móveis - Aula 2: Git e GitHub'
 footer: '![height:120px](./images/iesb-1.png)'
 transition: fade-out
 size: 4:3
+style: |
+  section {
+    font-size: 2.0em;
+  }
 ---
 
 # Aula 2: Git e GitHub
