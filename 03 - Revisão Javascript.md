@@ -4,13 +4,15 @@ theme: default
 paginate: true
 author: Gustavo Clay
 title: 'Aula 3: Revisão de JavaScript'
-header: 'Aula 3: Revisão de JavaScript'
-footer: 'Programação para Dispositivos Móveis'
+header: 'Programação para Dispositivos Móveis -  Aula 3: Revisão de JavaScript
+footer: '![height:120px](./images/iesb-1.png)'
 transition: fade-out
 size: 4:3
 ---
 
 # Aula 3: JavaScript
+
+Prof. Gustavo Clay
 
 ---
 
@@ -78,7 +80,7 @@ size: 4:3
 
 - Declarar variáveis com `var`, `let` e `const`.
   ```javascript
-  var nome = "Gustavo Clay";
+  var nome = "João José";
   let idade = 25;
   const cidade = "Brasília";
   ```
@@ -100,7 +102,7 @@ var _condicao = false; // Boolean
 var x = 2019; // Número sem decimal
 var juros = 2.56; // Número com decimal
 let $mensagem = 'Olá Mundo!'; // String
-let pessoa = { nome: "Gustavo", idade: 30 }; // Objeto
+let pessoa = { nome: "José", idade: 30 }; // Objeto
 let carros = ["Audi", "Volvo", "BMW"]; // Array
 const soma = (a, b) => a + b; // Função
 const PI = 3.141592653589793; // Variável imutável
@@ -113,12 +115,29 @@ var 1variavel; // Variável inválida
 ## Tipos de Dados
 
 - **Primitivos**: `string`, `number`, `boolean`, `null`, `undefined`, `symbol`.
+
   ```javascript
   let nome = "Gustavo"; // string
   let idade = 25; // number
   let ativo = true; // boolean
   let vazio = null; // null
   let indefinido; // undefined
+  ```
+
+---
+
+## Manipulação de Strings
+
+  ```javascript
+  let str = "Gustavo"; // string
+  let tamanho = str.length; // 7
+  let maiusculas = str.toUpperCase(); // "GUSTAVO"
+  let minusculas = str.toLowerCase(); // "gustavo"
+  let primeiraLetra = str[0]; // "G"
+  let ultimaLetra = str[str.length - 1]; // "o"
+  let posicao = str.indexOf("t"); // 2
+  let substituir = str.replace("Gustavo", "Clay"); // "Clay"
+  
   ```
 
 ---
@@ -254,8 +273,6 @@ var 1variavel; // Variável inválida
   console.log(saudacao("Gustavo"));
   ```
 
----
-
 - Funções anônimas e arrow functions:
   ```javascript
   const soma = function(a, b) {
@@ -281,6 +298,109 @@ var 1variavel; // Variável inválida
 
 ---
 
+### Principais Métodos de Arrays
+
+#### push()
+
+Adiciona um elemento ao final do array.
+
+```javascript
+frutas.push("Morango");
+console.log(frutas); // ["Maçã", "Banana", "Laranja", "Morango"]
+```
+
+#### pop()
+
+Remove o último elemento do array.
+
+```javascript
+frutas.pop();
+console.log(frutas); // ["Maçã", "Banana", "Laranja"]
+```
+
+---
+
+#### shift()
+
+Remove o primeiro elemento do array.
+
+```javascript
+frutas.shift();
+console.log(frutas); // ["Banana", "Laranja"]
+```
+
+#### unshift()
+
+Adiciona um elemento no início do array.
+
+```javascript
+frutas.unshift("Uva");
+console.log(frutas); // ["Uva", "Banana", "Laranja"]
+```
+
+---
+
+#### slice()
+
+Retorna uma cópia de parte do array.
+
+```javascript
+let citricas = frutas.slice(1, 3);
+console.log(citricas); // ["Banana", "Laranja"]
+```
+
+#### splice()
+
+Adiciona ou remove elementos em qualquer posição.
+
+```javascript
+frutas.splice(1, 1); // Remove 1 elemento a partir do índice 1
+console.log(frutas); // ["Uva", "Laranja"]
+```
+
+---
+
+#### forEach()
+
+Executa uma função para cada elemento do array.
+
+```javascript
+frutas.forEach((fruta) => console.log(fruta));
+```
+
+#### filter()
+
+Cria um novo array com elementos que passam em um teste.
+
+```javascript
+let frutasComA = frutas.filter((fruta) => fruta.includes("a"));
+console.log(frutasComA); // ["Laranja"]
+```
+
+---
+
+#### map()
+
+Cria um novo array com os resultados de uma função aplicada a cada elemento.
+
+```javascript
+let frutasMaiusculas = frutas.map((fruta) => fruta.toUpperCase());
+console.log(frutasMaiusculas); // ["UVA", "LARANJA"]
+```
+
+
+#### reduce()
+
+Reduz o array a um único valor (soma, média, etc.).
+
+```javascript
+let numeros = [1, 2, 3, 4];
+let soma = numeros.reduce((total, num) => total + num, 0);
+console.log(soma); // 10
+```
+
+---
+
 ## Objetos
 
 - Declarar e manipular objetos:
@@ -297,8 +417,74 @@ var 1variavel; // Variável inválida
 
 ---
 
+### Desestruturação de Objetos
+
+- Atribuir valores de propriedades a variáveis:
+
+  ```javascript
+  let pessoa = {
+    nome: "Jorge",
+    idade: 25,
+    cidade: "Brasília"
+  };
+
+  let { nome, idade } = pessoa;
+
+  console.log(nome); // Jorge
+  console.log(idade); // 26
+  ```
+
+---
+
+### Propagação de Objetos
+
+- Combinar propriedades de objetos:
+
+  ```javascript
+  let pessoa = {
+    nome: "Jorge",
+    idade: 25
+  };
+
+  let endereco = {
+    cidade: "Brasília",
+    estado: "DF"
+  };
+
+  let pessoaCompleta = { ...pessoa, ...endereco };
+
+  console.log(pessoaCompleta);
+  ```
+
+---
+
+## Modulos
+
+- **Exportar** funções, variáveis e objetos:
+  ```javascript
+  export const soma = (a, b) => a + b;
+  export const PI = 3.141592653589793;
+  ```
+- **Importar** funções, variáveis e objetos:
+  ```javascript
+  import { soma, PI } from "./matematica.js";
+  console.log(soma(5, 3));
+  ```
+
+---
+
 ## Exercícios
 
 1. Crie uma função que receba dois números e retorne a soma deles.
 2. Crie um array de frutas e adicione uma nova fruta ao final.
 3. Crie um objeto representando uma pessoa com nome, idade e cidade, e altere a idade dessa pessoa.
+4. Utilize o método `map` para criar um novo array com os nomes das frutas em maiúsculas.
+5. Utilize o método `filter` para criar um novo array apenas com as frutas que contêm a letra "a".
+
+---
+
+6. Utilize o método `reduce` para calcular a soma de um array de números.
+7. Crie um objeto representando um carro com propriedades como marca, modelo e ano, e utilize a desestruturação para extrair essas propriedades em variáveis.
+8. Crie dois objetos, carro e proprietário e combine utilizando a propagação de objetos.
+9. Crie um módulo que exporte uma função de soma e uma constante PI, e importe esses valores em outro arquivo.
+10. Crie um programa que receba um número e imprima a tabuada desse número.

@@ -5,12 +5,13 @@ paginate: true
 author: Gustavo Clay
 title: 'Aula 2: Git e GitHub'
 header: 'Programação para Dispositivos Móveis - Aula 2: Git e GitHub'
-footer: '![height:120px](./images/iesb-1.png) '
+footer: '![height:120px](./images/iesb-1.png)'
 transition: fade-out
 size: 4:3
 ---
 
 # Aula 2: Git e GitHub
+
 Prof. Gustavo Clay
 
 ---
@@ -52,16 +53,19 @@ Prof. Gustavo Clay
 ## Comandos Básicos do Git
 
 1. Inicializar um repositório:
+
    ```bash
    git init
    ```
 
 2. Adicionar arquivos ao repositório:
+
    ```bash
    git add <arquivo>
    ```
 
 3. Fazer um commit:
+
    ```bash
    git commit -m "Mensagem do commit"
    ```
@@ -69,27 +73,33 @@ Prof. Gustavo Clay
 ---
 
 4. Verificar o status do repositório:
+
    ```bash
    git status
    ```
 
 5. Ver o histórico de commits:
+
    ```bash
    git log
    ```
 
 6. Criar uma nova branch:
+
    ```bash
    git branch <nome-da-branch>
    ```
+
 ---
 
 7. Mudar para uma branch:
+
    ```bash
    git checkout <nome-da-branch>
    ```
 
 8. Unir uma branch ao branch atual:
+
    ```bash
    git merge <nome-da-branch>
    ```
@@ -140,12 +150,46 @@ Prof. Gustavo Clay
 ## Conectando Repositório Local ao GitHub
 
 1. No terminal, adicione o repositório remoto:
+
    ```bash
    git remote add origin https://github.com/seuusuario/nomedorepositorio.git
    ```
 
 2. Envie os commits locais para o GitHub:
+
    ```bash
    git push -u origin main
    ```
-   
+
+---
+
+## Clonando um Repositório do GitHub
+
+1. Copie o link do repositório no GitHub.
+2. No terminal, clone o repositório:
+
+   ```bash
+   git clone https://github.com/seuusuario/nomedorepositorio.git
+   ```
+
+---
+
+## Gitignore
+
+- Arquivo que especifica quais arquivos e pastas devem ser ignorados pelo Git.
+- Crie um arquivo `.gitignore` na raiz do projeto.
+- Adicione os nomes dos arquivos e pastas a serem ignorados.
+- Exemplo de `.gitignore`:
+
+  ```plaintext
+  node_modules/
+  .DS_Store
+  ```
+---
+
+## Gitignore.io
+
+- Ferramenta online para gerar arquivos `.gitignore`.
+- Acesse [gitignore.io](https://www.gitignore.io/).
+- Digite o nome das tecnologias a serem ignoradas.
+- Copie o conteúdo gerado para o arquivo `.gitignore`.
