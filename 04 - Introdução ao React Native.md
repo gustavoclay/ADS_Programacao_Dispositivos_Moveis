@@ -235,10 +235,19 @@ const styles = StyleSheet.create({
 
 ---
 
-## Exercícios
+## Componentes Core
 
-1. Crie um novo projeto Expo e altere o texto para "Bem-vindo ao React Native!".
-2. Adicione um botão ao projeto e exiba um alerta quando o botão for pressionado.
-3. Adicione uma imagem ao projeto e exiba-a na tela.
-4. Crie um componente personalizado e utilize-o no projeto.
+- **View**: Container para outros componentes.
+- **Text**: Exibe texto.
+- **Image**: Exibe imagens.
+- **Button**: Botão clicável.
+- **TextInput**: Campo de entrada de texto.
+- **ScrollView**: Container com rolagem.
 
+---
+
+![bg 70%](images/rn_core_components.png)
+
+---
+
+## Prática e Exercícios

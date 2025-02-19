@@ -477,7 +477,9 @@ console.log(soma); // 10
 
 ---
 
-## Exercícios
+## Exercícios 01
+
+### ⚠️Tente realizar os exercícios sem utilizar IA ou Google.⚠️
 
 1. Crie uma função que receba dois números e retorne a soma deles.
 2. Crie um array de frutas e adicione uma nova fruta ao final.
