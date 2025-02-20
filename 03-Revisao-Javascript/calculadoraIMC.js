@@ -1,4 +1,4 @@
-// Modúlos -> Exportando
+  // Modúlos -> Exportando
 
 export const tabelaIMC = [
   { limite: 18.5, classificacao: "Magreza" },

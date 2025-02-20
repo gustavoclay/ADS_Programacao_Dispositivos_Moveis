@@ -50,6 +50,11 @@ else {
   console.log("Menor de idade");
 }
 
+// Operador ternário
+const mensagem = idade >= 18 ? "Maior de idade" : "Menor de idade";
+
+
+// Switch
 const diaDaSemana = 3;
 switch (diaDaSemana) {
   case 1:

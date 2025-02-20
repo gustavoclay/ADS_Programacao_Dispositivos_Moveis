@@ -209,6 +209,15 @@ var 1variavel; // Variável inválida
 
 ---
 
+- **Operador ternário**:
+  ```javascript
+  let idade = 18;
+  let status = idade >= 18 ? "Maior de idade" : "Menor de idade";
+  console.log(status);
+  ```
+
+---
+
 - **switch**:
   ```javascript
   let dia = 3;
@@ -475,22 +484,3 @@ console.log(soma); // 10
   console.log(soma(5, 3));
   ```
 
----
-
-## Exercícios 01
-
-### ⚠️Tente realizar os exercícios sem utilizar IA ou Google.⚠️
-
-1. Crie uma função que receba dois números e retorne a soma deles.
-2. Crie um array de frutas e adicione uma nova fruta ao final.
-3. Crie um objeto representando uma pessoa com nome, idade e cidade, e altere a idade dessa pessoa.
-4. Utilize o método `map` para criar um novo array com os nomes das frutas em maiúsculas.
-5. Utilize o método `filter` para criar um novo array apenas com as frutas que contêm a letra "a".
-
----
-
-6. Utilize o método `reduce` para calcular a soma de um array de números.
-7. Crie um objeto representando um carro com propriedades como marca, modelo e ano, e utilize a desestruturação para extrair essas propriedades em variáveis.
-8. Crie dois objetos, carro e proprietário e combine utilizando a propagação de objetos.
-9. Crie um módulo que exporte uma função de soma e uma constante PI, e importe esses valores em outro arquivo.
-10. Crie um programa que receba um número e imprima a tabuada desse número.
