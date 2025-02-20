@@ -57,7 +57,7 @@ Neste exercício, você irá criar um aplicativo simples usando React Native e E
    } from "react-native";
    ```
 
-10. **Nome do Jogador**: Adicione um componente `Text`com estilização personalizada para exibir o nome do time ou jogador com uma fonte maior.
+10. **Nome do Jogador**: Adicione um componente `Text` com estilização personalizada para exibir o nome do time ou jogador com uma fonte maior.
 
 11. **Informações do Jogador**: Adicione varios componentes `Text` para exibir informações sobre o time ou jogador.
 

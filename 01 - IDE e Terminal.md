@@ -150,3 +150,11 @@ $
 2. Pesquise por "Terminal: Selecionar o Perfil Padrão" ou "Select Default Profile".
 3. Selecione **Git Bash**.
 4. O comando Ctrl + ` abrirá o terminal do Git Bash.
+
+---
+
+## Extensões
+
+1. **Portuguese (Brazil) Language Pack**: Traduz o VS Code para português.
+2. **ES7+ React/Redux/React-Native snippets**: Snippets para React Native.
+3. **Prettier - Code formatter**: Formata o código automaticamente.
