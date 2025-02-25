@@ -240,6 +240,23 @@ Prof. Gustavo Clay
 
 ---
 
+## Configurando um usuário
+
+1. Abra o terminal no VS Code.
+2. Configure o nome do usuário:
+
+   ```bash
+   git config --global user.name "Seu Nome"
+   ```
+   
+3. Configure o email do usuário:
+
+   ```bash
+   git config --global user.email "seuemail@gmail.com"
+   ```
+
+---
+
 ## Fazendo um Commit no VS Code
 
 1. Abra o VS Code.
