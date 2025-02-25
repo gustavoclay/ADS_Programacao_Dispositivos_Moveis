@@ -197,3 +197,78 @@ Prof. Gustavo Clay
 - Acesse [gitignore.io](https://www.gitignore.io/).
 - Digite o nome das tecnologias a serem ignoradas.
 - Copie o conteúdo gerado para o arquivo `.gitignore`.
+
+---
+
+## Controle de Versão no VS Code
+
+- O Visual Studio Code possui integração com o Git.
+- Utilize a barra lateral para visualizar mudanças.
+- Faça commits e push diretamente do VS Code.
+
+---
+
+## Inicializando um Repositório no VS Code
+
+1. Abra o VS Code.
+2. Clique em "Source Control" na barra lateral.
+3. Clique em "Initialize Repository".
+4. Adicione arquivos ao repositório.
+5. Faça commits e push diretamente do VS Code.
+
+---
+
+![bg fit 60%](images/vscode-git3.png)
+
+---
+
+## Clonando um Repositório no VS Code
+
+1. Abra o VS Code.
+2. Clique em "Source Control" na barra lateral.
+3. Clique em "Clone Repository".
+4. Cole o link do repositório e selecione a pasta de destino.
+
+---
+
+![bg fit](images/vscode-git1.png)
+
+---
+
+![](images/vscode-git.png)
+![](images/vscode-git2.png)
+
+---
+
+## Fazendo um Commit no VS Code
+
+1. Abra o VS Code.
+2. Clique em "Source Control" na barra lateral.
+3. Adicione os arquivos ao commit.
+4. Digite uma mensagem de commit e clique em "✓".
+
+---
+
+![](images/vscode-git4.png)
+
+---
+
+## Enviando Mudanças para o GitHub
+
+1. Após fazer um commit, clique em "Push" na barra lateral.
+2. Selecione o repositório remoto e clique em "Push".
+
+![](images/vscode-git6.png)
+
+---
+
+<!-- _footer: '' -->
+
+![bg 70%](images/vscode-git5.png)
+
+---
+
+Referências:
+
+- <https://code.visualstudio.com/docs/sourcecontrol/overview>
+- <https://code.visualstudio.com/docs/sourcecontrol/intro-to-git>

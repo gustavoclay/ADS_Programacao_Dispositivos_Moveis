@@ -1,6 +1,6 @@
 ## Exercícios 01
 
-### ⚠️ Tente realizar os exercícios ao máximo que conseguir sem utilizar IA ou Google. ⚠️
+### ⚠️ Tente realizar os exercícios ao máximo que conseguir sem utilizar ajuda de IA ou pesquisa. O objetivo é treinar e praticar os conceitos do aprendizado ⚠️
 
 1. Crie uma função que receba dois números e retorne a soma deles.
 

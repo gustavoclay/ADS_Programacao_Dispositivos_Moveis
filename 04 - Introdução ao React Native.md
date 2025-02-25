@@ -22,11 +22,89 @@ Prof. Gustavo Clay
 
 ## Objetivos da Aula
 
-1. Entender o que é **React**.
-2. Entender o que é **React Native**.
-3. Conhecer o **Expo** e suas funcionalidades.
-4. Criar um projeto inicial com Expo.
-5. Executar o projeto em um dispositivo ou emulador.
+1. Entender o que é **Node e NPM**.
+2. Entender o que é **React**.
+3. Entender o que é **React Native**.
+4. Conhecer o **Expo** e suas funcionalidades.
+5. Criar um projeto inicial com Expo.
+6. Executar o projeto em um dispositivo ou emulador.
+
+---
+
+# Node e NPM
+
+---
+
+## Introdução ao npm e Comandos Básicos
+
+### O que é Node.js?
+
+- **Node.js**: Ambiente de execução JavaScript que permite rodar código JavaScript no servidor.
+- Utiliza o motor V8 do Google Chrome para executar código JavaScript.
+- Ideal para construir aplicações de rede escaláveis e de alta performance.
+
+---
+
+### O que é npm?
+
+- **npm** (Node Package Manager): Gerenciador de pacotes padrão para Node.js.
+- Permite instalar, compartilhar e gerenciar dependências de projetos JavaScript.
+- Possui um repositório online com milhares de pacotes disponíveis.
+
+---
+
+### Estrutura do package.json
+
+<!-- _footer: '' -->
+
+- **package.json**: Arquivo de configuração do projeto Node.js.
+- Contém informações sobre o projeto e suas dependências.
+- Estrutura básica:
+  ```json
+  {
+    "name": "nome-do-projeto",
+    "version": "1.0.0",
+    "description": "Descrição do projeto",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Seu Nome",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
+  ```
+
+---
+
+### Comandos Básicos do npm
+
+- **npm init**: Cria o arquivo package.json interativamente.
+  ```bash
+  npm init
+  ```
+- **npm start**: Inicia a aplicação (se configurado no package.json).
+  ```bash
+  npm start
+  ```
+
+---
+
+- **npm install <pacote>**: Instala pacotes no projeto e adiciona ao package.json.
+  ```bash
+  npm install express
+  ```
+- **npm install**: Instala todas as dependências listadas no package.json.
+  ```bash
+  npm install
+  ```
+
+---
+
+# React e React Native
 
 ---
 
@@ -124,7 +202,19 @@ Prof. Gustavo Clay
 
 ### Arquitetura do React Native
 
-![height:450px](images/native-arq.png)
+- **JavaScript**: Código JavaScript que interage com a interface.
+- **Bridge**: Comunicação entre JavaScript e código nativo.
+- **Código Nativo**: Código específico para iOS e Android.
+
+---
+
+<!-- _footer: '' -->
+
+![bg fit 70%](images/native-arq.png)
+
+---
+
+# Expo
 
 ---
 

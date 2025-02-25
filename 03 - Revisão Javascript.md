@@ -4,7 +4,7 @@ theme: default
 paginate: true
 author: Gustavo Clay
 title: 'Aula 3: Revisão de JavaScript'
-header: 'Programação para Dispositivos Móveis -  Aula 3: Revisão de JavaScript
+header: 'Programação para Dispositivos Móveis -  Aula 3: Revisão de JavaScript'
 footer: '![height:120px](./images/iesb-1.png)'
 transition: fade-out
 size: 4:3
@@ -483,4 +483,3 @@ console.log(soma); // 10
   import { soma, PI } from "./matematica.js";
   console.log(soma(5, 3));
   ```
-
