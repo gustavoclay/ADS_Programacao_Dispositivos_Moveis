@@ -53,3 +53,7 @@ Neste exercício, você irá criar um repositório no GitHub para utilizar na di
 
 5. **Verifique no GitHub**:
    - Acesse o repositório no GitHub e verifique se o arquivo `.gitignore` foi adicionado corretamente.
+
+6. **Envie o link do repositório no Google Classroom**:
+   - Copie o link do repositório no GitHub.
+   - Acesse o Google Classroom e envie o link do repositório como resposta na atividade correspondente.
