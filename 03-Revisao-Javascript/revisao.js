@@ -196,3 +196,14 @@ console.log(resultadoIMC);
 import * as calculadoraIMC from './calculadoraIMC.js';
 
 console.log(calculadoraIMC.tabelaIMC)
+
+
+// Libs -> Usando uma biblioteca externa
+
+import moment from 'moment';
+
+const hoje = moment();
+console.log(hoje.format('DD/MM/YYYY'));
+
+const amanha = moment().add(1, 'day');
+console.log(amanha.format('DD/MM/YYYY HH:mm'));
